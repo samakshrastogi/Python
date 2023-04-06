@@ -1,0 +1,9 @@
+def average(a,b):
+    print("Average is: ",(a+b)/2)
+def average1(*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("Average is: ",sum/len(numbers))
+average(4,6)
+average1(4,1,8,7,5)
