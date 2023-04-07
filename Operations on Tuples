@@ -1,0 +1,21 @@
+#Operations on Tuples
+'''countries1=["India","Spain","Italy","England","Germany"]
+temp = list(countries1)
+temp.append("Russia") #additem
+temp.pop(3)           #remove item
+temp[2] ="Finland"    #change item
+countries1 = tuple(temp)
+print(countries1)'''
+
+
+
+countries2=["Pakistan","Afghanistan","Bangladesh","SriLanka"]
+countries3=["Vietnam","India","China"]
+southEastAsia = countries2+countries3
+print(southEastAsia) 
+
+
+
+tuple1=(0,1,2,1,2,0,1,2,0,1,2,0)
+res=tuple1.count(2)
+print("Count of 2 in tuple1 is",res)
