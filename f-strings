@@ -1,0 +1,10 @@
+# f-strings
+letter = "Hey My name is {} and I am from {}."
+name="Samaksh"
+country="India"
+
+print(letter.format(name,country))
+print(f"Hey My name is {name} and I am from {country}.")
+
+txt = "For only {price:.2f} dollars"
+print(txt.format(price=49.299999))
