@@ -1,0 +1,19 @@
+# Tuples
+# Tuples can't be change
+# List can be change
+tup =(1,5,2,7,"Samaksh",8.2,True)
+print(tup,type(tup))
+print(tup[0],type(tup[0]))
+print(tup[1],type(tup[1]))
+print(tup[2],type(tup[2]))
+print(tup[3],type(tup[3]))
+print(tup[4],type(tup[4]))
+print(tup[5],type(tup[5]))
+print(tup[6],type(tup[6]))
+print(len(tup))
+if 5 in tup:
+    print("Yes 5 is present in this tuple")
+else:
+    print("Number is not present")
+tup2=tup[1:4]
+print(tup2)
