@@ -1,0 +1,11 @@
+# Sets
+#There is no guarantee of maitaining order
+#Repeated values are shown a single time
+s={2,4,6,8,"Samaksh",True,0.3,8,7,2,2}
+print(s)
+
+Samaksh = set()
+print(type(Samaksh))
+
+for value in s:
+    print(value)
