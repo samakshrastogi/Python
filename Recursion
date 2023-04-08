@@ -1,0 +1,7 @@
+# Recursion
+def average(*n):
+    sum = 0
+    for i in n:
+        sum=sum + i
+    print("Average is: ",sum/(len(n)))
+average(40,6)
