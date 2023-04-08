@@ -1,0 +1,10 @@
+print("FACTORIAL SERIES")
+def factorial(n):
+    if(n==1 or n==0):
+        return 1
+    else:
+        return n * factorial(n-1)
+for i in range(12):
+    #print(i)
+    print("Factorial of", i ,"is: ",factorial(i))
+#print("Factorial of 4 is: ",factorial(4))
