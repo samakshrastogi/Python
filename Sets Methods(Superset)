@@ -1,0 +1,5 @@
+country1 = {'India', 'Pakistan', 'Nepal'}
+country2 = {'Afghanistan', 'China', 'India', 'Nepal'}
+print(country1.superset(country2))
+country1.issuperset(country2)
+print(country1)
