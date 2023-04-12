@@ -1,0 +1,20 @@
+dic = {
+#   key: "value"
+    344: "harry",
+    56: "Shubha",
+    678: "Zakir",
+    567: "Neha"
+}
+print(dic[56])
+
+info = {'Name':'Samaksh','Age':20,'Eligible':True}
+print(info)
+print(info['Name'])
+print(info.get('Name'))
+print(info.get('Name2'))
+print(info.items())
+print(info.keys())
+print(info.values())
+
+for key in info.keys():
+    print(info[key])
