@@ -1,0 +1,4 @@
+countries = {'India', 'Pakistan', 'Nepal'}
+item=countries.pop()
+print(countries)
+print(item)
