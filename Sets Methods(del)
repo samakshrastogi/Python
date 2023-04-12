@@ -1,0 +1,3 @@
+countries = {'India', 'Pakistan', 'Nepal'}
+del countries
+print(countries)
